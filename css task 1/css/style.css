@@ -1,0 +1,28 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.samar{background-color: blue;}
+.ccca{background-color: antiquewhite;}
+.adam{background-color: aliceblue;}
+.ahmad{background-color: blanchedalmond;}
+.ggg{background-color: blanchedalmond;}
+.samar{
+    /* margin-left: 5%; 
+    margin-right: 5%; */
+}
+/* .ccca{margin-left: 5%; margin-right: 5%;} */
+.adam{margin-left: 5%; margin-right: 5%;}
+.ggg{margin-left: 5%; margin-right: 5%;}
+.ahmad{margin-bottom: 4%; margin-right:5%;}
+
+
+
+.cart{background-color: white;}
+
+.cart-div{background-color: white;}
+.name-1{border-color: black;border-width: 1px;border-style: groove;}
+.name-2{border-color: black;border-width: 1px;border-style: groove;}
+
