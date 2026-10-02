@@ -1,0 +1,82 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: white;
+    
+
+}
+
+.cardet{
+   min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card{
+    width: 340px;
+    background-color: aliceblue;
+   border-radius: 22px;
+   padding: 40px 28px;
+   text-align: center;
+   box-shadow: 0 8px 24px; 
+
+}
+
+.avatar{
+    width: 130px;
+    height: 130px;
+background-color: blue;
+margin:0 auto 22px;
+border-radius: 50%;
+border: 10px solid blue
+
+
+}
+.card_h{
+    font-size: 28px;
+    margin-bottom: 8px;
+    color: black;
+}
+.card_p{
+    color: blue;
+    font-size: 18px;
+    margin-bottom: 14px;
+    font-weight: bold;
+}
+.card_p2{
+color: black;
+font-size: 15px;
+line-height: 1.5;
+margin-bottom: 24px;
+}
+.actions{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.card_follow{
+    display: inline-block;
+    padding: 12px 28px;
+background-color: blue;
+color: white;
+display: inline;
+font-size: 16px;
+border-radius: 999px;
+text-decoration: none;
+font-weight: bold;
+
+}
+.card-message{
+display: inline-block;
+padding: 12px 28px;
+background-color: white;
+color: blue;
+font-size: 16px;
+border: 2px;
+border-radius: 999px;
+text-decoration: none;
+font-weight: bold;
+}
