@@ -1,0 +1,40 @@
+
+
+.header{
+    background-color: rgb(11, 11, 109);
+    color: white;
+    padding: 20px;
+}
+.main{
+    background-color: beige;
+    width: 80%;
+    margin:30px auto;
+}
+.div{
+    background-color: white;
+    padding: 24px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.h2{
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.div-menu{
+    background-color: blanchedalmond;
+    padding: 24px; 
+    border-radius: 8px; 
+}
+
+.Menuh2{color: brown;
+    margin-bottom: 12px;
+}
+.div-menu p{
+    color: brown;
+    margin-bottom: 6;
+}
+.footer{background-color: black;
+    color: antiquewhite;
+    padding: 16px;
+}

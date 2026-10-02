@@ -25,4 +25,9 @@
 .cart-div{background-color: white;}
 .name-1{border-color: black;border-width: 1px;border-style: groove;}
 .name-2{border-color: black;border-width: 1px;border-style: groove;}
+.name-1{background-color: blue;}
+.name-1{border-color: blue;border-width: 1px;border-style: groove;border-top-left-radius: 500;border-top-right-radius: 500;border-bottom-left-radius: 500;}
+.name-2{background-color: white;border-color: blue;border-width: 1px;border-style: groove;border-top-left-radius: 500;border-top-right-radius: 500;border-bottom-left-radius: 500;}
+.cart{border-color: azure;border-style: groove;border-width: 1px;}
+
 
