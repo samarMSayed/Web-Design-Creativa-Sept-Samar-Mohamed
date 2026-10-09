@@ -1,0 +1,308 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;}
+ul{ list-style: none;}
+a{text-decoration: none;
+color: inherit;}
+nav{
+    background-color: black;
+    padding: 15px 0;
+}
+.div{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.h1 a {
+    color: white;
+    font-size: 26px;
+    letter-spacing: 3px;
+}
+
+.ul {
+    display: flex;
+    gap: 25px;
+}
+
+.ul li a {
+    color: whitesmoke;
+    font-size: 14px;
+}
+.hero {
+    background-image: url("https://tse3.mm.bing.net/th/id/OIP.7UusdIHw-b0l7c23hZkR4wHaEJ?r=0&rs=1&pid=ImgDetMain&o=7&rm=3");
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    padding-bottom: 40px;
+}
+
+
+.herodiv,
+.herodiv1 {
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    padding: 18px 22px;
+    width: 300px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.hero3,
+.hero4 {
+    background-color: white;
+    color: black;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+    flex-shrink: 0;
+}
+
+.herodiv h3,
+.herodiv1 h3 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: white;
+}
+
+.dontmiss {
+  padding: 50px 0;
+}
+
+.divdont {
+  width: 85%;
+  margin: 0 auto 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(177, 176, 176);
+  padding-bottom: 15px;
+}
+
+.divdont h2 {
+  font-size: 24px;
+}
+
+.uldont {
+  display: flex;
+  gap: 18px;
+  list-style: none;
+}
+
+.uldont a {
+  color: gainsboro;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.uldont a.active {
+  color: black;
+  font-weight: 600;
+}
+
+.main {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.leftside {
+  width: 70%;
+}
+
+.bigandsmall {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.divcard {
+  width: 58%;
+}
+
+.imgbox {
+  position: relative;
+}
+
+.imgbox img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 6px;
+  display: block;
+}
+
+.spandont {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: white;
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 3px;
+}
+
+.divcard1 {
+  padding-top: 12px;
+}
+
+.divcard1 h2 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+.divcard1 p {
+  font-size: 14px;
+  color: rgb(123, 111, 111);
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.span2 {
+  font-size: 12px;
+  color:rgb(176, 159, 159);
+}
+
+.cards {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.card1 {
+  display: flex;
+  gap: 10px;
+}
+
+.card1 img {
+  width: 75px;
+  height: 55px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.card1 h3 {
+  font-size: 13px;
+  margin-bottom: 4px;
+  line-height: 1.3;
+}
+
+.arrows {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.arrows a {
+  width: 35px;
+  height: 35px;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.sidebar {
+  width: 28%;
+}
+
+.about,
+.topstories,
+.social,
+.today {
+  margin-bottom: 30px;
+}
+
+.about h3,
+.topstories h3,
+.social h3,
+.today h3 {
+  font-size: 17px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid black;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.about p {
+  font-size: 14px;
+  color: gray;
+  line-height: 1.6;
+}
+
+.story {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.story img {
+  width: 65px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.story h4 {
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icons a {
+  width: 35px;
+  height: 35px;
+  background: whitesmoke;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  color: grey;
+  text-decoration: none;
+}
+
+.today img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.today h4 {
+  font-size: 14px;
+}
