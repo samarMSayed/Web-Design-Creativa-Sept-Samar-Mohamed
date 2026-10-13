@@ -1,0 +1,38 @@
+*{margin: 0;
+padding: 0;
+font-family: sans-serif;
+box-sizing: border-box;}
+
+
+.contanir{
+    width: 80%;
+    margin: auto;
+}
+.display{
+    display: flex;
+    gap: 200px;
+    margin-top: 15%;
+
+}
+.card{ position: relative;}
+
+.img1{
+    transition-duration: 1s;
+      position: absolute;
+      
+}
+.text{ 
+
+     transition: 2s;
+           text-align: center;
+    
+     
+}
+
+
+.text:hover {
+  transform: translateY(-40%) translateX(-40%);
+}
+.img1:hover{
+    transform: translateX(20%) translateY(20%);
+}
