@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* .div{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: black;
+    /* animation-name:goat ;
+   animation-duration: 4s; */
+
+}
+/* .img{    animation-name:goat ;
+   animation-duration: 8s;}
+@keyframes goat{
+    /* 0%{transform: translateX(100%);} */
+    from{transform: translateX(200%);}
+} */ */
+.ahmed{
+    background-color: blueviolet;
+}
+.icon{
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: blueviolet;
+    /* box-shadow: 0 10px 25px blueviolet; */
+    text-align: center;
+    width:50px;
+    margin-left: 45%;
+    margin-top: 5%;
+}
+.divv{
+    /* background: -o-linear-gradient(); */
+    /* background-image: -o-linear-gradient(); */
+    background-color: white;
+    animation-name: border;
+    border: 1px solid black;
+    border-radius: 30%;
+    width: 40%;
+    height: 60%;
+    text-align: center;
+    margin-top: 10%;
+    animation-duration: 5s;
+}
+.Follow{
+    border: 1px solid blue;
+    border-radius: 40%;
+    background-color: blue;
+    width: 20%;
+    margin-bottom: 5%;
+}
+
+
+
+@keyframes border{
+    from{
+       transform: translateY(40px);
+       color: blue;
+       border-color: blue;
+    }
+    to{
+      transform: translateY(-40);
+      color: brown;
+      border-color: brown;
+    }
+}
+  
